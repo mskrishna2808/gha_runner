@@ -15,6 +15,6 @@ jobs:
 
     - name: run commands
       run: |
-        pwd
+        echo $pwd
         touch file.txt
         ls -l
