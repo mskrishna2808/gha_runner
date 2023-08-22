@@ -18,3 +18,4 @@ jobs:
         echo $pwd
         touch file.txt
         ls -l
+        echo "Integration successfully completed"
