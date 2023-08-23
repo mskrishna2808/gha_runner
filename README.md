@@ -1,2 +1,10 @@
-# gha_runner
-Terrraform code repo to create ec2 runner with AWS Auto Scaling Group for GitHub Actions
+```flow
+st=>start: Login
+op=>operation: Login operation
+cond=>condition: Successful Yes or No?
+e=>end: To admin
+
+st->op->cond
+cond(yes)->e
+cond(no)->op
+```
